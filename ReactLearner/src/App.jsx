@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react'
+import card from "Component/card";
 
 const App = () => {
   return (
-    <div><div className="area">
-      <h1>Hello bhai</h1></div></div>
+    <>
+   </card>
+    </>
   )
 }
 
