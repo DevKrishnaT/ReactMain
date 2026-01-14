@@ -1,10 +1,12 @@
-import React, { Component } from 'react'
-import card from "Component/card";
+import React, { Component } from 'react';
+
+
+import Card from "./Component/card";
 
 const App = () => {
   return (
     <>
-   </card>
+   <Card />
     </>
   )
 }

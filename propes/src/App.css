@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+ 
+ 
+  
+}
+.MainCArd{
+  
+  height: 200px;
+  width: 180px;
+  border: 1px solid white;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.areaOfPhoto{
+  height: 50%;
+  border-bottom: 1px solid white;
+}

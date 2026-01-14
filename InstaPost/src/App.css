@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+ 
+  text-align: center;
+}
+.MobileArea{
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+}
+.PostArea{
+  height: 500px;
+}
+.TopArea{
+  height: 60px;
+  background-color: white;
+  border-top: 1px solid grey;
+}
+.AreaOfTop{
+  height: 100%;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.left{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.imageProfile{
+  width: 50px;
+  height: 100%;
+  
+}
+.ActualImage{
+  margin-top: 2px;
+  height: 90%;
+  width: 50px;
+  border-radius: 50%;
+
+}
+.Name{
+  text-transform: capitalize;
+  margin: 0px 0px 0px 5px;
+  color: black;
+}
+.dots{
+  color: black;
+}
+.imageAreaPost{
+  height: 400px;
+  background-color: #fffdd0;
+}
+.Foot{
+  height: 60px;
+  background-color: white;
+ 
+}
