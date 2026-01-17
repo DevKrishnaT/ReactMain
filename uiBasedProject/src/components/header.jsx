@@ -3,7 +3,7 @@ import Button from './Button'
 import CrossButton from '../assets/cross.svg'
 const Header = () => {
   return (
-    <div className='h-16 border border-[rgba(0,0,0,0.1)] '>
+    <div className='h-16 box-border border border-[rgba(0,0,0,0.1)] shrink-0 sticky'>
         <div className="mx-5 h-full">
             <div className="h-full flex justify-between items-center">
                 <div className='font-sans text-2xl font-medium'>Opal</div>

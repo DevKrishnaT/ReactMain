@@ -5,11 +5,12 @@ import BodyArea from './components/bodyArea'
 
 const App = () => {
   return (
-    <div className="bg-white min-h-screen flex flex-col">
+      <>
+     <div className="flex flex-col h-screen overflow-hidden">
       <Header />
-      <BodyArea />
-
-    </div>
+      <BodyArea  />
+      </div>
+    </>
   )
 }
 
