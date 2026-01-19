@@ -7,7 +7,7 @@ export default function Button({
 }){
      const sizes = {
     sm: "px-4 py-3 text-sm",
-    md: "px-8 py-3 text-sm",
+    md: "px-20 py-2 text-sm",
     icon: "px-4 py-3 text-sm",
   };
 

@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import WhiteOne from "../assets/photos/white.png";
 import BlackOne from "../assets/photos/black.png";
+import BuyButton from '../components/BuyButton';
 
 const BuyOption = () => {
   const [countwhite, setcountwhite] = useState(1);
-  const [countBlack, setcountblack] = useState(1);
+  const [countBlack, setcountblack] = useState(0);
 
   const decreseCountwhite = ()=>{
-    if(countwhite > 1){
+    if(countwhite > 0){
         setcountwhite(countwhite  - 1);
     }
   }
@@ -18,7 +19,7 @@ const BuyOption = () => {
   }
   
   const decreseCountBlack = ()=>{
-    if(countBlack > 1){
+    if(countBlack > 0){
         setcountblack(countBlack  - 1);
     }
   }
@@ -73,7 +74,14 @@ const BuyOption = () => {
           </div>
         </div>
       </div>
-      <div className="buyBotton"></div>
+      <div className="buyBotton flex flex-row  justify-between border-t border-[rgba(0,0,0,0.25)] mt-23">
+       <div className="price text-2xl">
+        ${countBlack * 119 + countwhite * 119}
+       </div>
+          <BuyButton/>
+        <div className="my-2">
+        </div>
+      </div>
     </div>
   );
 };
